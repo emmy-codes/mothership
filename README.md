@@ -18,7 +18,7 @@ For every 7 days straight that you logged your habit progress, you'd get a blue 
 * First we worked on creating a section where you could see your habits that you added, as well as adding and removing them. We hard coded a couple to help visualise the page.
 * Then we added the slider option to choose how many days you wanted to do your challenge.
 * Next was the storing of the habits, so that you would be able to return to the page and your habits and your progress were saved (this was done with local storage and JSON.)
-
+* I learned about and used the native API's document.createElement which would create a new div on the page when you saved your new habit, as well as the .classList.add() which could be used to create "close" buttons (X in the corner) or add a class to an existing div (such as "hidden" to remove an item visually). Mindblowing!
 
 To be continued....
 
