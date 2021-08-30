@@ -1,4 +1,4 @@
-# mothership
+# mothership (Group project)
 
 flatUI, clean, simple, modern & minimalist habit tracker.
 
@@ -8,6 +8,8 @@ Contributors:
     Neha Hirve
     Emma Scott-Allen
     Tuva Åkerlund
+    
+# Overview
 
 This was our first group project and we had to create a habit tracker, the rest was up to us. We quickly decided on a retro style theme! The idea of our app was that you would need to log in and confirm that you did the habit every single day for as many days as you chose to do it for, and at the end of the time you would be able to play a Space Invaders game. The more times you logged in and confirmed your habit, the more potential points you could gain when you played the Space Invaders game.
 
@@ -20,7 +22,9 @@ For every 7 days straight that you logged your habit progress, you'd get a blue 
 * Next was the storing of the habits, so that you would be able to return to the page and your habits and your progress were saved (this was done with local storage and JSON.)
 * I learned about and used the native API's document.createElement which would create a new div on the page when you saved your new habit, as well as the .classList.add() which could be used to create "close" buttons (X in the corner) or add a class to an existing div (such as "hidden" to remove an item visually). Mindblowing!
 
-To be continued....
+# Personal implementation
+
+When it comes to code and PR's I completed, I have made some design fixes to our CSS, increased the max range on the quest range slider, and added an event listener to count the days on an active habit/quest based on the days chosen on the slider.
 
 
 starfield function based off of this guy -->
